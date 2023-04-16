@@ -4,4 +4,5 @@ console.log(displayText)
 const body = document.getElementsByTagName("body")[0];
 const div = document.createElement("div")
 div.innerText=displayText;
+div.id="browser-info";
 body.appendChild(div);
